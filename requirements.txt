@@ -1,0 +1,29 @@
+
+# Backend framework
+fastapi
+uvicorn[standard]
+
+# Validation and configuration
+pydantic
+pydantic-settings
+python-dotenv
+
+# Database
+sqlalchemy
+asyncpg
+alembic
+
+# Authentication and security
+python-jose[cryptography]
+passlib[bcrypt]
+python-multipart
+
+# HTTP client
+httpx
+
+# Testing
+pytest
+pytest-asyncio
+
+# Code quality
+ruff
