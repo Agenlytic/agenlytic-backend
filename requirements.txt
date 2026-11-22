@@ -1,29 +1,13 @@
-
-# Backend framework
 fastapi
 uvicorn[standard]
-
-# Validation and configuration
-pydantic
-pydantic-settings
-python-dotenv
-
-# Database
-sqlalchemy
+sqlalchemy[asyncio]
 asyncpg
 alembic
-
-# Authentication and security
-python-jose[cryptography]
-passlib[bcrypt]
-python-multipart
-
-# HTTP client
-httpx
-
-# Testing
+pwdlib[argon2]
+pyjwt[crypto]
+pydantic-settings
+email-validator
+redis
 pytest
 pytest-asyncio
-
-# Code quality
-ruff
+httpx
